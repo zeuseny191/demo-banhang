@@ -1,0 +1,86 @@
+.container-commerce {
+    margin: 30px 30px;
+}
+
+.logo-ecommerce {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-category {
+    cursor: pointer;
+    width: 90px;
+    height: 70px;
+    transition: all .3s;
+}
+
+.image-category:hover,
+.image-category:active {
+    transform: scale(1.2);
+}
+
+.name-category {
+    cursor: pointer;
+}
+
+h3 {
+    margin-left: 130px;
+    text-align: left;
+}
+
+.category-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.category-list li {
+    border: solid 2px green;
+    text-align: center;
+    float: left;
+    display: block;
+    padding: 5px 2px;
+}
+/* ----------product - section----------- */
+.product-section{
+    margin: 0 100px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.grid-item:hover,
+.grid-item:active {
+    background-color: rgb(202, 227, 249);
+}
+.image-product{
+    width: 150px;
+}
+.price-product{
+    display: flex;
+    justify-content: space-between;
+}
+.old-price{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: rgb(108, 105, 105);
+}
+.sales{
+    margin-left: -30px;
+    color: red;
+}
+.new-price{
+    color: green;
+}

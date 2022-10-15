@@ -1,0 +1,105 @@
+.info-customer{
+    display: block; 
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.table-info{
+    margin-left: auto; 
+    margin-right: auto;
+}
+.label-info{
+    margin-right: 100px;
+}
+input, select{
+    width: 210px;
+    height: 25px;
+}
+td{
+    padding-bottom: 30px;
+}
+/* ------------------------- */
+.line-cutting{
+    width: 80%;
+    height: 2px;
+    background-color: rgb(93, 92, 92);
+    display: block;
+    margin: 30px auto;
+}
+/* ------------------------- */
+.label-detail{
+    margin-right: 500px;
+}
+.btn-buying{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color:  rgb(11, 117, 11);
+    border-radius: 5px;
+    margin: 15px 0;
+    margin-left: 820px;
+}
+/* ----------order success------------ */
+.container-success{
+    margin-top: 30px;
+    text-align: center;
+}
+.success-icon{
+    color: green;
+    font-size: 150px;
+}
+h2{
+    font-size: 40px;
+    margin: 30px 0;
+}
+.btn-next{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(11, 117, 11);
+    border-radius: 5px;
+    margin: 30px 0;
+}
+/* --------View Order-------- */
+.container-view{
+    margin: 30px 100px;
+}
+.process-label{
+    margin-left: 50px;
+    padding: 2px 10px;
+    border: solid 2px green;
+    margin-right: 15px;
+}
+.process-label:hover,
+.process-label:active{
+    background-color: green;
+    color: white;
+}
+h4{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.product{
+    display: flex;
+    align-items: center;
+}
+.img-product{
+    width: 150px;
+    height: 200px;
+    margin-right: 100px
+}
+.field-product{
+    margin-right: 100px;
+}.btn-cancel{
+    width: 120px;
+    height: 30px;
+}
+
+
